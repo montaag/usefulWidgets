@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:usefull_widgets/config/palette.dart';
 import 'package:usefull_widgets/config/theme.dart';
 import 'package:usefull_widgets/widgets/form_elements/check_box.dart';
+import 'package:usefull_widgets/widgets/form_elements/custom_textfield.dart';
 import 'package:usefull_widgets/widgets/tabbar_view/custom_tabbar.dart';
 
 class HomePage extends StatelessWidget {
@@ -41,6 +42,10 @@ class HomePage extends StatelessWidget {
                   const GridViewItem(
                     name: "Custom Checkbox",
                     widget: CustomCheckbox(),
+                  ),
+                  const GridViewItem(
+                    name: "Custom TextField",
+                    widget: CustomTextFielPage(),
                   ),
                 ],
               ),
