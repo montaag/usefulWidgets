@@ -150,7 +150,6 @@ class CustomTextFielPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final TextEditingController _emailController = TextEditingController();
-    final TextEditingController _phoneNumberController = TextEditingController();
     final TextEditingController _passwordController = TextEditingController();
 
     return Scaffold(
